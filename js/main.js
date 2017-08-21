@@ -1,6 +1,10 @@
-//plugin slider
 
-$(document).ready(function(){
-      $('.slider').slider();
-    });
-        
+$(document).ready(function () {
+  // Carousel
+  $('.carousel.carousel-slider').carousel({fullWidth: true});
+  	autoplay()   
+	function autoplay() {
+	    $('.carousel').carousel('next');
+	    setTimeout(autoplay, 4500);
+	}   
+});
