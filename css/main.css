@@ -1,3 +1,16 @@
+.section_usuario {
+  font-weight: bold; }
 
+.section_usuario_subtitle {
+  color: #8f8f8f; }
+
+.material-icons {
+  color: #8f8f8f; }
+
+.section_usuario_password {
+  color: #8f8f8f; }
+
+.btn {
+  background: #fbd43b; }
 
 /*# sourceMappingURL=main.css.map */

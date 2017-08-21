@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,gBAAgB;EACf,WAAW,EAAE,IAAI;;AAGlB,yBAAyB;EACxB,KAAK,ECDO,OAAO;;ADIpB,eAAe;EACd,KAAK,ECLO,OAAO;;ADQpB,yBAAyB;EACxB,KAAK,ECTO,OAAO;;ADYpB,IAAI;EACH,UAAU,ECfA,OAAO",
+"sources": ["../assets/sass/_bases.scss","../assets/sass/_variable.scss"],
 "names": [],
 "file": "main.css"
 }
