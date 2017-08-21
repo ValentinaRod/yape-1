@@ -1,4 +1,6 @@
 #pantalla2{
+	height: 100vh;
+	margin-top: 10vh;
 	text-align: center;
 	img{
 		height: auto;
@@ -26,6 +28,6 @@
 		}
 	}
 	.btn{
-		background: $amarillo;
+		background: $amarillo; 
 	}
 }

@@ -1,4 +1,6 @@
 #pantalla2 {
+  height: 100vh;
+  margin-top: 10vh;
   text-align: center; }
   #pantalla2 img {
     height: auto;

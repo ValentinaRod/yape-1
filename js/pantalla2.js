@@ -1,17 +1,21 @@
 $(document).ready(function() {
-	//checked="checked" 
-	/*$("#filled-in-box").on("click", function(){
-		if ($('#filled-in-box').is(':checked')){
+ 
+	$("#btn-continuar").prop("disabled", true);  
+	$("#btn-continuar").addClass('disabled');
 
+	$("#filled-in-box").on("click", function(){
+		$("#btn-continuar").prop("disabled", false);  
 			var number = $("#icon_telephone").val();
 			if(number.length > 4){
-				$(this).attr('checked', this.checked);
+				$("#filled-in-box").attr('checked', "checked");
 				$("#btn-continuar").removeAttr("disabled");
+				$("#btn-continuar").removeClass('disabled');
 			}
-		}
 		
-		
-	});*/
+	});
+
+	//trabajando en otra alternativa
+	
 /*	$("#btn-continuar").attr('disabled', 'disabled');
 	$("#btn-continuar").addClass('disabled');
 
@@ -38,7 +42,7 @@ $(document).ready(function() {
 	
 });*/
 
-$("#icon_telephone").validate({
+/*$("#icon_telephone").validate({
         
         rules: {
             phone: {
@@ -50,5 +54,6 @@ $("#icon_telephone").validate({
             $("#btn-continuar").attr("disabled", true);
             form.submit(); // <- use 'form' argument here.
         }
-    });
+    });*/
+
 });
