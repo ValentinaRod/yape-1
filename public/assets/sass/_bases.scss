@@ -1,0 +1,52 @@
+
+#index1{
+	margin:0;
+	padding:0;
+}
+
+.carousel{
+	overflow: visible;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top:70px;
+ }
+
+img.responsive-img{
+    max-width:50%;
+}
+
+.btn{
+	background-color:$amarillo;
+	width:80%;
+}
+
+#index7{
+	margin:0;
+	padding:0;
+	.seccion-morada-uno{
+		background-color:$morado-light;
+		height:300px;
+			.img-index7{
+				margin-top:60px;
+				
+		}
+	}
+
+	.seccion-morada-dos{
+	    height: 100%;
+		background-color:$morado-dark;
+			.iconos-segunda-seccion{
+				margin-top:80px;
+		}
+	}
+}
+
+.titulo-turquesa{
+	color:$turquesa;
+	font-size:15px;
+}
+
+.nav-wrapper{
+	background-color:$morado-dark;
+}
