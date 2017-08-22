@@ -1,0 +1,31 @@
+.screenTres material-icon {
+  margin-top: 5%;
+  height: 50%;
+  width: auto; }
+.screenTres div #icono-flecha {
+  margin-top: 8%; }
+.screenTres .imagen {
+  display: flex;
+  justify-content: center; }
+.screenTres img {
+  display: flex;
+  justify-content: center;
+  height: 90px; }
+.screenTres .titulo {
+  display: flex;
+  justify-content: center; }
+.screenTres h3 {
+  font-size: 150%;
+  justify-content: center;
+  font-weight: 600; }
+.screenTres .parrafo {
+  display: flex;
+  justify-content: center;
+  padding: 0% 4% 0% 4%; }
+.screenTres p {
+  display: flex;
+  justify-content: center; }
+.screenTres .input-field label {
+  top: 120%; }
+
+/*# sourceMappingURL=main.css.map */
