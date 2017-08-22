@@ -13,7 +13,7 @@
     border-bottom: 1px solid #fbd43b;
     box-shadow: 0 1px 0 0 #fbd43b; }
   #pantalla2 .input-field input {
-    background-image: url(../doc/public/img/icons/phoneandnumber.png);
+    background-image: url(../img/icons/phoneandnumber.png);
     background-size: 70px 30px;
     background-position: left;
     background-repeat: no-repeat;

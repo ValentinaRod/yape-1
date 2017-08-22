@@ -22,25 +22,34 @@ $(document).ready(function() {
 		$("#btn-continuar").focus();
 	});
 
+	$("#btn-continuar").on("click", function(){
 
-	$.ajax({
+		var number = $(".phone-number").val();
+		localStorage.setItem("telefonoYape", number);
+		$.ajax({
 		url: '/api/registerNumber',
 		type: 'POST',
 		data: {
-			'phone': '12345678',
+			'phone': number,
 			'terms': 'true'
 		},
-	})
-	.done(function(res) {
-		console.log("success");
-		console.log(res);
-	})
-	.fail(function() {
-		console.log("error");
-	})
-	.always(function() {
-		console.log("complete");
+		})
+		.done(function(res) {
+			console.log("success");
+			console.log(res);
+			validPhone(res);
+		})
+		.fail(function() {
+			console.log("error");
+		})
+		.always(function() {
+			console.log("complete");
+		});
 	});
-	
 
+	function validPhone(res){
+		var code = res.data.code;
+		localStorage.setItem("codigoYape", code);
+
+	}
 });
