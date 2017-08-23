@@ -26,6 +26,7 @@ $(document).ready(function() {
 
 		var number = $(".phone-number").val();
 		localStorage.setItem("telefonoYape", number);
+
 		$.ajax({
 		url: '/api/registerNumber',
 		type: 'POST',
@@ -53,3 +54,41 @@ $(document).ready(function() {
 
 	}
 });
+
+/*jQuery.validator.setDefaults({
+  debug: true,
+  success: "valid"
+});
+$( "#myform" ).validate({
+  rules: {
+    field: {
+      required: true
+    }
+  }
+});*/
+/*
+$(document).ready(function () {
+
+    $('#idform').validate({
+        rules: {
+            inputEmail: {
+                required: true,
+                email: true
+            },
+            inputEmailConfirm: {
+                // required: true,  // <-- redundant
+                // email: true,     // <-- redundant
+                equalTo: '#inputEmail'
+            }  // <-- removed trailing comma
+        }
+    });
+
+    $('#idform input').on('keyup blur', function () { // fires on every keyup & blur
+        if ($('#idform').valid()) {                   // checks form for validity
+            $('button.btn').prop('disabled', false);        // enables button
+        } else {
+            $('button.btn').prop('disabled', 'disabled');   // disables button
+        }
+    });
+
+});  */
