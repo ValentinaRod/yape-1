@@ -33,3 +33,29 @@
 
 }
 }
+
+
+#bodyFive{
+        background-color: $amarillo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    .icono{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70%;
+    }img{
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }.parrafos{
+        
+    }h3{
+        font-size: 150%;
+        font-weight: 600;
+    }
+}
