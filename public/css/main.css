@@ -1,3 +1,24 @@
+.section_usuario {
+  font-weight: bold; }
+
+.section_usuario_subtitle {
+  color: #8f8f8f; }
+
+.material-icons {
+  color: #8f8f8f; }
+
+.section_usuario_password {
+  color: #8f8f8f; }
+
+.btn, .btn-large {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fbd43b;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer; }
+
 #pantalla2 {
   height: 100vh;
   margin-top: 10vh;
@@ -21,4 +42,4 @@
   #pantalla2 .btn {
     background: #fbd43b; }
 
-
+/*# sourceMappingURL=main.css.map */
