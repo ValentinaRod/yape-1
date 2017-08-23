@@ -19,4 +19,37 @@
 	
 }
 
+#pantalla2{
+	height: 100vh;
+	margin-top: 10vh;
+	text-align: center;
+	img{ 
+		height: auto;
+		width: 30vw;
+	}
+	h5{
+		font-weight: bold;
+	}
+	form{
+		a{
+			color: $turquesa;
+		}
+	}
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid $amarillo;
+     box-shadow: 0 1px 0 0 $amarillo;
+   }
+	.input-field{
+		input{
+			background-image: url(../img/icons/phoneandnumber.png);
+			background-size: 70px 30px;
+			background-position: left;
+			background-repeat: no-repeat;
+			text-align: center;
+		}
+	}
+	.btn{
+		background: $amarillo; 
+	}
+}
 
