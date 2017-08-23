@@ -1,4 +1,24 @@
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - assets/sass/main.scss"; }
+#pantalla2 {
+  height: 100vh;
+  margin-top: 10vh;
+  text-align: center; }
+  #pantalla2 img {
+    height: auto;
+    width: 30vw; }
+  #pantalla2 h5 {
+    font-weight: bold; }
+  #pantalla2 form a {
+    color: #00c3a3; }
+  #pantalla2 .input-field input[type=text]:focus {
+    border-bottom: 1px solid #fbd43b;
+    box-shadow: 0 1px 0 0 #fbd43b; }
+  #pantalla2 .input-field input {
+    background-image: url(../img/icons/phoneandnumber.png);
+    background-size: 70px 30px;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: center; }
+  #pantalla2 .btn {
+    background: #fbd43b; }
+
+
