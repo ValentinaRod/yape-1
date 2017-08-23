@@ -3,7 +3,9 @@
   height: 50%;
   width: auto; }
 .screenTres div #icono-flecha {
-  margin-top: 8%; }
+  margin-top: 8%;
+  font-size: 50%;
+  text-decoration: none; }
 .screenTres .imagen {
   display: flex;
   justify-content: center; }
