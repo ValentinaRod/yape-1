@@ -1,3 +1,45 @@
+/***********************PANTALLA 6******************/
+#pantalla6 .row.center {
+  padding: 0 100px; }
+  #pantalla6 .row.center .s1, #pantalla6 .row.center h5 {
+    color: #00c3a3; }
+  #pantalla6 .row.center .s12 h3 {
+    font-size: 2em; }
+  #pantalla6 .row.center .s12 p {
+    color: #8f8f8f; }
+  #pantalla6 .row.center .s12 input {
+    background: url("../img/icons/card.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    text-align: center; }
+  #pantalla6 .row.center .s12 h5 img {
+    width: 30px;
+    margin: 0 20px; }
+  #pantalla6 .row.center .s8 {
+    text-align: left; }
+  #pantalla6 .row.center .fecha {
+    color: #8f8f8f; }
+  #pantalla6 .row.center .boton button {
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 30px; }
+#pantalla6 #continuar-P6 {
+  background: white;
+  height: 100vh; }
+  #pantalla6 #continuar-P6 .row .s12 input {
+    background: url("../img/icons/lock.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 30px; }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+/*************************FIN PANTALLA 6******************************************/
 
 /*# sourceMappingURL=main.css.map */
