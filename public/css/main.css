@@ -1,5 +1,6 @@
 /***********************PANTALLA 6******************/
 #pantalla6 .row.center {
+  background: white;
   padding: 0 100px; }
   #pantalla6 .row.center .s1, #pantalla6 .row.center h5 {
     color: #00c3a3; }
@@ -28,7 +29,12 @@
     margin-top: 30px; }
 #pantalla6 #continuar-P6 {
   background: white;
-  height: 100vh; }
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -1; }
+  #pantalla6 #continuar-P6 .row .nav {
+    display: flex; }
   #pantalla6 #continuar-P6 .row .s12 input {
     background: url("../img/icons/lock.png");
     background-position: left;

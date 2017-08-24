@@ -11,7 +11,10 @@ $(document).ready(function(){
 //validacion de tarjeta
 	$(".numeroTj").on("keyup", function(){
 		tarjeta = $(this).val(); //tomo el valor
-		if(tarjeta.length >= 16){ // si el largo del valor es mayor a 16 es 
+		if(tarjeta.length == 16){
+			continuar1 = true;
+		}
+		else if(tarjeta.length > 16){ // si el largo del valor es mayor a 16 es 
 			$(".numeroTj").val($(".numeroTj").val().substring(0,contador));
 			continuar1 = true;
 		}
@@ -20,8 +23,6 @@ $(document).ready(function(){
 			$("#boton_continuar").css("background", "buttonface");
 			var miTarjeta = localStorage.setItem("tarjeta", $(".numeroTj").val());
 			return continuar1 = false;
-
-
 		}
 		validation();
 		console.log(tarjeta.length)
@@ -50,7 +51,6 @@ $(document).ready(function(){
 
 	//validación de año
 	$(".año").on("keyup", function(){
-		
 		anio = $(this).val();
 		validation();
 		if(anio.length > 1){
@@ -79,24 +79,29 @@ function validation(){
 	console.log(continuar1, continuar2, continuar3)
 }
 $("#boton_continuar").click(function(){
+	$("#continuar-P6").css({
+		position: 'fixed',
+		top: '0',
+		'z-index': '2'
+	});
+	$(".nro_Tarjeta").html("**** " + localStorage.getItem("tarjeta").substring(11))
+	console.log(localStorage.getItem("tarjeta"));
+
+
+	var miTarjeta = 
+	$("#continuar-P6").addClass("slideInUp").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+		$("#continuar-P6").removeClass('slideOutDown')
+		);;
+	$(".fa-angle-left").click(function(){
+		$("#continuar-P6").addClass("slideOutDown").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+			$("#continuar-P6").removeClass('slideInUp'));;
 		$("#continuar-P6").css({
 			position: 'fixed',
-			top: '0'
+			top: '0',
+			'z-index': '0'
 		});
-		$("#continuar-P6").addClass("slideInUp");
-
-
-		console.log(localStorage.getItem("tarjeta"));
-		console.log(continuar1, continuar2, continuar3)
 	})
-
-	/*$(".año").click(function(){
-		$("#boton_continuar").removeAttr('disabled')
-	})
-
-	$("#boton_continuar").click(function(){
-		alert("hola")
-	})*/
+})
 
 
 })
