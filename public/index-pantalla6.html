@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index-pantalla6</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+<script src="https://use.fontawesome.com/d9456a7cc8.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet"> 
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body id="pantalla6">
+	<div class="registroTdc animated">
+    <div class="row center">
+      <div class="col s1 offset-s12 m1 offset-m12 l1 offset-l12">
+        <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+      </div>
+      <div class="col s12 m12 l12">
+        <img src=img/icons/bcp-logo.png alt="">
+        <h3>Registra tu tarjeta débito BCP</h3>
+        <p>Por ahora sólo aceptamos cuentas de ahorro<br> y/o corrientes en soles.</p>
+        <input type="number" class="numeroTj">
+        <h5><img src="img/icons/scan.png" alt="">Escanear tu tarjeta</h5>
+      </div>
+      <div class="col s6 m6 l6 fecha">
+        <p>Fecha de vencimiento</p>
+      </div>
+      <div class="col s2 m2 l2 center" id="mes">
+        <input type="number" placeholder="Mes" class="mes">
+      </div>
+      <div class="col s1 m1 l1">
+        <p>/</p>
+      </div>
+      <div class="col s2 m2 l2 center" id="anio">
+        <input type="number" placeholder="Año" class="año">
+      </div>
+      <div class="col s1 m1 l1 center">
+          <i id='riverroad' class="fa fa-eye"  aria-hidden="true"></i>
+      </div>
+      <div class="col s12 m12 l12 boton">
+        <button id="boton_continuar">CONTINUAR</button>
+      </div>
+    </div>
+  </div>
+  <section id="continuar-P6" class="animated">
+      <div class="row center">
+        <div class="col s12 m12 l12 nav">
+          <i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
+          <p>Volver</p>
+          <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+        </div>
+        <div class="col s12 m12 l12">
+          <img src=img/icons/bcp-logo.png alt="">
+          <h3>Ingresar la clave de tu tarjeta</h3>
+          <p>Tarjeta <span class="nro_Tarjeta">****</span></p>
+          <input type="text" class="clave_tarjeta">
+        </div>
+        <div class="col s12 m12 l12 boton">
+          <button>CONTINUAR</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/registroTarjeta.js"></script>
+</body>
+</html>
