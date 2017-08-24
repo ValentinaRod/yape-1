@@ -1,55 +1,9 @@
-.section_usuario {
-  font-weight: bold; }
-
-.section_usuario_subtitle {
-  color: #8f8f8f; }
-
-.material-icons {
-  color: #8f8f8f; }
-
-.section_usuario_password {
-  color: #8f8f8f; }
-
-.btn, .btn-large {
-  text-decoration: none;
-  color: #fff;
-  background-color: #fbd43b;
-  text-align: center;
-  letter-spacing: .5px;
-  transition: .2s ease-out;
-  cursor: pointer; }
-
-#pantalla2 {
-  height: 100vh;
-  margin-top: 10vh;
-  text-align: center; }
-  #pantalla2 img {
-    height: auto;
-    width: 30vw; }
-  #pantalla2 h5 {
-    font-weight: bold; }
-  #pantalla2 form a {
-    color: #00c3a3; }
-  #pantalla2 .input-field input[type=text]:focus {
-    border-bottom: 1px solid #fbd43b;
-    box-shadow: 0 1px 0 0 #fbd43b; }
-  #pantalla2 .input-field input {
-    background-image: url(../img/icons/phoneandnumber.png);
-    background-size: 70px 30px;
-    background-position: left;
-    background-repeat: no-repeat;
-    text-align: center; }
-  #pantalla2 .btn {
-    background: #fbd43b; }
-
 .screenTres material-icon {
   margin-top: 5%;
   height: 50%;
   width: auto; }
 .screenTres div #icono-flecha {
-  margin-top: 8%;
-  font-size: 50%;
-  text-decoration: none; }
+  margin-top: 8%; }
 .screenTres .imagen {
   display: flex;
   justify-content: center; }
@@ -94,4 +48,5 @@
   #bodyFive h3 {
     font-size: 150%;
     font-weight: 600; }
+
 /*# sourceMappingURL=main.css.map */
