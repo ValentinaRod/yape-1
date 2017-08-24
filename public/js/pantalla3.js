@@ -31,7 +31,7 @@ $(document).ready(function() {
             .always(function() {
                 console.log("complete");
             });
-        }setInterval(valide, 8000);
+        }setInterval(valide, 10000);
     
     function validCode(res){
         //alert(res);
