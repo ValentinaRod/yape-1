@@ -2,7 +2,7 @@
 #pantalla6{
 	.row.center{
 		background: white;
-		padding: 0 100px;
+		
 		.s1, h5{
 			color: #00c3a3;
 		}
@@ -48,10 +48,20 @@
 		height: 100vh;
 		position: fixed;
 		top: 0;
+		left: 0;
+		right: 0;
 		z-index: -1;
 		.row{
 			.nav{
 				display: flex;
+				align-items: center;
+				p{
+					margin-left: 30px;
+					margin-right: 90%;
+				}
+				.fa-question-circle-o{
+					color: #00c3a3;
+				}
 			}
 			.s12{
 				input{
@@ -71,7 +81,7 @@ input[type=number]::-webkit-outer-spin-button {
 -webkit-appearance: none; 
 	margin: 0; 
 }
-
+/*************************FIN PANTALLA 6******************************************/
 
 .btn, .btn-large {
     text-decoration: none;
