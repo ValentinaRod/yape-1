@@ -143,7 +143,10 @@ $(document).ready(function(){
 		    console.log("success");
 		    console.log(res);
 		    $(".siguiente_index").attr('href', 'index-pantalla7.html');
+<<<<<<< HEAD
+=======
 		    console.log(localStorage)
+>>>>>>> master
 		})
 		.fail(function() {
 		    console.log("error");
