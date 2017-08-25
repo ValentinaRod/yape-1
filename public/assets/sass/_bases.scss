@@ -2,7 +2,7 @@
 #pantalla6{
 	.row.center{
 		background: white;
-		padding: 0 100px;
+		
 		.s1, h5{
 			color: #00c3a3;
 		}
@@ -54,6 +54,14 @@
 		.row{
 			.nav{
 				display: flex;
+				align-items: center;
+				p{
+					margin-left: 30px;
+					margin-right: 90%;
+				}
+				.fa-question-circle-o{
+					color: #00c3a3;
+				}
 			}
 			.s12{
 				input{
@@ -74,3 +82,188 @@ input[type=number]::-webkit-outer-spin-button {
 	margin: 0; 
 }
 /*************************FIN PANTALLA 6******************************************/
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: $amarillo;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+
+
+#pantalla2{
+	height: 100vh;
+	margin-top: 10vh;
+	text-align: center;
+	img{ 
+		height: auto;
+		width: 30vw;
+	}
+	h5{
+		font-weight: bold;
+	}
+	form{
+		a{
+			color: $turquesa;
+		}
+	}
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid $amarillo;
+     box-shadow: 0 1px 0 0 $amarillo;
+   }
+	.input-field{
+		input{
+			background-image: url(../img/icons/phoneandnumber.png);
+			background-size: 70px 30px;
+			background-position: left;
+			background-repeat: no-repeat;
+			text-align: center;
+		}
+	}
+	.btn{
+		background: $amarillo; 
+	}
+}
+
+.screenTres{
+	material-icon{
+		margin-top: 5%;
+		height: 50%;
+		width: auto;
+	}div #icono-flecha{
+		margin-top: 8%;
+		font-size: 50%;
+		text-decoration: none;
+	}.imagen{
+		display: flex;
+		justify-content: center;
+	}img{
+		display: flex;
+		justify-content: center;
+		height: 90px;
+	}.titulo{
+		display: flex;
+		justify-content: center;
+	}h3{
+		font-size: 150%;
+		justify-content: center;
+		font-weight: 600;
+	}.parrafo{
+		display: flex;
+		justify-content: center;
+		padding: 0% 4% 0% 4%;
+	}p{
+		display: flex;
+		justify-content: center;
+	}.input-field label {
+    top: 120%;
+}
+}
+
+
+#bodyFive{
+        background-color: $amarillo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    .icono{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70%;
+    }img{
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }.parrafos{
+        
+    }h3{
+        font-size: 150%;
+        font-weight: 600;
+    }
+}
+
+
+//pantalla de inicio con preloader redirige a index 1
+
+#indexinicio{
+	.index-inicio{
+		background-image:url(../img/icons/inicio.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height:650px;
+		width:100%;
+	}
+	.preloader-wrapper {
+        margin-top: 450px;
+ 	}
+}
+
+
+//index 1 tiene un carrusel con distintos eslogans, su botón redirige a index 2
+
+#index1{
+	margin:0;
+	padding:0;
+		.carousel{
+			overflow: visible;
+		    position: relative;
+		    width: 100%;
+		    height: 400px;
+		    margin-top:70px;
+ 	}
+
+}
+
+
+img.responsive-img{
+    max-width:50%;
+}
+
+.btn{
+	background-color:$amarillo;
+	width:80%;
+}
+
+//index 7 maqueta final
+
+#index7{
+	margin:0;
+	padding:0;
+	.seccion-morada-uno{
+		background-color:$morado-light;
+		height:300px;
+			.img-index7{
+				margin-top:60px;
+				
+		}
+	}
+
+	.seccion-morada-dos{
+	    height: 100%;
+		background-color:$morado-dark;
+			.iconos-segunda-seccion{
+				margin-top:80px;
+		}
+	}
+}
+
+.titulo-turquesa{
+	color:$turquesa;
+	font-size:15px;
+}
+
+.nav-wrapper{
+	background-color:$morado-dark;
+}
+
+/*************************FIN PANTALLA 6******************************************/
+

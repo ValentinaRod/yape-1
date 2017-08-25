@@ -143,6 +143,9 @@ $(document).ready(function(){
 		    console.log("success");
 		    console.log(res);
 		    $(".siguiente_index").attr('href', 'index-pantalla7.html');
+
+		    console.log(localStorage)
+
 		})
 		.fail(function() {
 		    console.log("error");
